@@ -64,7 +64,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/deslogar"
+        android:id="@+id/cadastrar"
         style="@style/button"
         android:layout_marginTop="28dp"
         android:text="@string/cadastrar"
