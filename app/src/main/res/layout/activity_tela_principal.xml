@@ -42,7 +42,7 @@
         android:id="@+id/textNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marmos duarte"
+        android:text=""
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -63,10 +63,10 @@
 
 
     <TextView
-        android:id="@+id/textEmail"
+        android:id="@+id/textEmailUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="marcos@gmail.com"
+        android:text=""
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -76,6 +76,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btDeslogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
@@ -86,7 +87,7 @@
         android:padding="20dp"
         android:layout_margin="20dp"
         android:background="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/textEmail"
+        app:layout_constraintTop_toBottomOf="@id/textEmailUsuario"
         />
 
 
